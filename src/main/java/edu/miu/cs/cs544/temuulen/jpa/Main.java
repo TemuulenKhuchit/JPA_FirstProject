@@ -1,6 +1,6 @@
-package edu.miu.cs.css544.temuulen.jpa;
+package edu.miu.cs.cs544.temuulen.jpa;
 
-import edu.miu.cs.css544.temuulen.jpa.entity.*;
+import edu.miu.cs.cs544.temuulen.jpa.entity.*;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;

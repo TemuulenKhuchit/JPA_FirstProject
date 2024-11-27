@@ -1,4 +1,4 @@
-package edu.miu.cs.css544.temuulen.jpa.entity;
+package edu.miu.cs.cs544.temuulen.jpa.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
