@@ -2,6 +2,7 @@ package edu.miu.cs.cs544.temuulen.jpa.entity;
 
 import jakarta.persistence.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -64,6 +65,13 @@ public class Course {
 
     public void setStudents(List<Student> students) {
         this.students = students;
+    }
+
+    public void setStudent(Student student) {
+        if (this.students == null) {
+            this.students = new ArrayList<Student>();
+        }
+        this.students.add(student);
     }
 
     public Room getRoom() {
